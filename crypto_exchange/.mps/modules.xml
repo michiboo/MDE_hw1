@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/jetbrain.mps.cryptoexchange/jetbrain.mps.cryptoexchange.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrain.mps.cryptoexchange/sandbox/jetbrain.mps.cryptoexchange.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/cryptoexchange_test/cryptoexchange_test.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

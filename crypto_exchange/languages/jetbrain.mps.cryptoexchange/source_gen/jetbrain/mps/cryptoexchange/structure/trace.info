@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,102,0" name="jetbrain.mps.cryptoexchange.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,46,0" name="jetbrain.mps.cryptoexchange.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="20,0,206,0" name="jetbrain.mps.cryptoexchange.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/1520256062691969658">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1520256062691969658" at="17,0,18,0" concept="2" trace="props_cryptoExchange" />
+      <node id="1520256062691969658" at="64,43,65,76" concept="5" />
+      <node id="1520256062691969658" at="65,76,66,35" concept="1" />
+      <node id="1520256062691969658" at="66,35,67,46" concept="1" />
+      <node id="1520256062691969658" at="68,9,69,36" concept="6" />
+      <node id="1520256062691969658" at="63,48,68,9" concept="3" />
+      <scope id="1520256062691969658" at="64,43,67,46">
+        <var name="cpb" id="1520256062691969658" />
+      </scope>
+      <scope id="1520256062691969658" at="63,48,69,36" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1520256062691969658" at="17,0,18,0" concept="7" trace="cryptoExchange" />
+      <node id="1520256062691969658" at="29,46,30,53" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1520256062691969658" at="26,0,27,0" concept="2" trace="myConceptcryptoExchange" />
+      <node id="1520256062691969658" at="67,48,68,39" concept="6" />
+      <node id="1520256062691969658" at="144,72,145,176" concept="5" />
+      <node id="1520256062691969658" at="145,176,146,33" concept="1" />
+      <node id="1520256062691969658" at="146,33,147,71" concept="1" />
+      <node id="1520256062691969658" at="147,71,148,114" concept="1" />
+      <node id="1520256062691969658" at="148,114,149,17" concept="1" />
+      <node id="1520256062692053357" at="149,17,150,108" concept="1" />
+      <node id="1520256062692053363" at="150,108,151,116" concept="1" />
+      <node id="1520256062692053353" at="151,116,152,201" concept="1" />
+      <node id="3064282989106935579" at="152,201,153,198" concept="1" />
+      <node id="4213103153625125569" at="153,198,154,205" concept="1" />
+      <node id="1520256062691969658" at="154,205,155,22" concept="6" />
+      <node id="1520256062691969658" at="144,0,157,0" concept="8" trace="createDescriptorForcryptoExchange#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1520256062691969658" at="67,48,68,39" />
+      <scope id="1520256062691969658" at="144,72,155,22">
+        <var name="b" id="1520256062691969658" />
+      </scope>
+      <scope id="1520256062691969658" at="144,0,157,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/1520256062692053350">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1520256062692053350" at="20,0,21,0" concept="2" trace="props_subsystem" />
+      <node id="1520256062692053350" at="85,38,86,76" concept="5" />
+      <node id="1520256062692053350" at="86,76,87,43" concept="1" />
+      <node id="1520256062692053350" at="87,43,88,41" concept="1" />
+      <node id="1520256062692053350" at="89,9,90,31" concept="6" />
+      <node id="1520256062692053350" at="84,43,89,9" concept="3" />
+      <scope id="1520256062692053350" at="85,38,88,41">
+        <var name="cpb" id="1520256062692053350" />
+      </scope>
+      <scope id="1520256062692053350" at="84,43,90,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1520256062692053350" at="20,0,21,0" concept="7" trace="subsystem" />
+      <node id="1520256062692053350" at="32,50,33,48" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1520256062692053350" at="29,0,30,0" concept="2" trace="myConceptsubsystem" />
+      <node id="1520256062692053350" at="73,43,74,34" concept="6" />
+      <node id="1520256062692053350" at="182,67,183,171" concept="5" />
+      <node id="1520256062692053350" at="183,171,184,34" concept="1" />
+      <node id="1520256062692053350" at="184,34,185,114" concept="1" />
+      <node id="1520256062692053350" at="185,114,186,17" concept="1" />
+      <node id="4213103153624513063" at="186,17,187,175" concept="1" />
+      <node id="1520256062692053382" at="187,175,188,200" concept="1" />
+      <node id="1520256062692053384" at="188,200,189,201" concept="1" />
+      <node id="4213103153626179445" at="189,201,190,198" concept="1" />
+      <node id="4293340948033128269" at="190,198,191,203" concept="1" />
+      <node id="1520256062692053350" at="191,203,192,22" concept="6" />
+      <node id="1520256062692053350" at="182,0,194,0" concept="8" trace="createDescriptorForsubsystem#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1520256062692053350" at="73,43,74,34" />
+      <scope id="1520256062692053350" at="182,67,192,22">
+        <var name="b" id="1520256062692053350" />
+      </scope>
+      <scope id="1520256062692053350" at="182,0,194,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/1520256062692053387">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1520256062692053387" at="16,0,17,0" concept="2" trace="props_account" />
+      <node id="1520256062692053387" at="57,36,58,76" concept="5" />
+      <node id="1520256062692053387" at="58,76,59,35" concept="1" />
+      <node id="1520256062692053387" at="59,35,60,39" concept="1" />
+      <node id="1520256062692053387" at="61,9,62,29" concept="6" />
+      <node id="1520256062692053387" at="56,41,61,9" concept="3" />
+      <scope id="1520256062692053387" at="57,36,60,39">
+        <var name="cpb" id="1520256062692053387" />
+      </scope>
+      <scope id="1520256062692053387" at="56,41,62,29" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1520256062692053387" at="16,0,17,0" concept="7" trace="account" />
+      <node id="1520256062692053387" at="28,54,29,46" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1520256062692053387" at="25,0,26,0" concept="2" trace="myConceptaccount" />
+      <node id="1520256062692053387" at="65,41,66,32" concept="6" />
+      <node id="1520256062692053387" at="134,65,135,169" concept="5" />
+      <node id="1520256062692053387" at="135,169,136,34" concept="1" />
+      <node id="1520256062692053387" at="136,34,137,71" concept="1" />
+      <node id="1520256062692053387" at="137,71,138,114" concept="1" />
+      <node id="1520256062692053387" at="138,114,139,17" concept="1" />
+      <node id="5397459514337941315" at="139,17,140,204" concept="1" />
+      <node id="4293340948031101220" at="140,204,141,207" concept="1" />
+      <node id="1520256062692053387" at="141,207,142,22" concept="6" />
+      <node id="1520256062692053387" at="134,0,144,0" concept="8" trace="createDescriptorForaccount#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1520256062692053387" at="65,41,66,32" />
+      <scope id="1520256062692053387" at="134,65,142,22">
+        <var name="b" id="1520256062692053387" />
+      </scope>
+      <scope id="1520256062692053387" at="134,0,144,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/3064282989107334908">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3064282989107334908" at="18,0,19,0" concept="2" trace="props_order" />
+      <node id="3064282989107334908" at="71,34,72,76" concept="5" />
+      <node id="3064282989107334908" at="72,76,73,39" concept="1" />
+      <node id="3064282989107334908" at="73,39,74,37" concept="1" />
+      <node id="3064282989107334908" at="75,9,76,27" concept="6" />
+      <node id="3064282989107334908" at="70,39,75,9" concept="3" />
+      <scope id="3064282989107334908" at="71,34,74,37">
+        <var name="cpb" id="3064282989107334908" />
+      </scope>
+      <scope id="3064282989107334908" at="70,39,76,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3064282989107334908" at="18,0,19,0" concept="7" trace="order" />
+      <node id="3064282989107334908" at="30,53,31,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3064282989107334908" at="27,0,28,0" concept="2" trace="myConceptorder" />
+      <node id="3064282989107334908" at="69,39,70,30" concept="6" />
+      <node id="3064282989107334908" at="157,63,158,167" concept="5" />
+      <node id="3064282989107334908" at="158,167,159,34" concept="1" />
+      <node id="3064282989107334908" at="159,34,160,114" concept="1" />
+      <node id="3064282989107334908" at="160,114,161,17" concept="1" />
+      <node id="3064282989107334911" at="161,17,162,109" concept="1" />
+      <node id="3064282989107334915" at="162,109,163,176" concept="1" />
+      <node id="1861668639318594050" at="163,176,164,175" concept="1" />
+      <node id="4213103153631665448" at="164,175,165,177" concept="1" />
+      <node id="4293340948021993117" at="165,177,166,115" concept="1" />
+      <node id="3064282989107334918" at="166,115,167,171" concept="1" />
+      <node id="3064282989107334920" at="167,171,168,173" concept="1" />
+      <node id="3064282989107334908" at="168,173,169,22" concept="6" />
+      <node id="3064282989107334908" at="157,0,171,0" concept="8" trace="createDescriptorFororder#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3064282989107334908" at="69,39,70,30" />
+      <scope id="3064282989107334908" at="157,63,169,22">
+        <var name="b" id="3064282989107334908" />
+      </scope>
+      <scope id="3064282989107334908" at="157,0,171,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/4213103153624218614">
+    <file name="EnumerationDescriptor_orderType.java">
+      <node id="4213103153624218614" at="14,44,15,187" concept="9" />
+      <node id="4213103153624218620" at="18,0,19,0" concept="2" trace="myMember_buy_0" />
+      <node id="4213103153624218622" at="19,0,20,0" concept="2" trace="myMember_sell_0" />
+      <node id="4213103153624884258" at="20,0,21,0" concept="2" trace="myMember_leverageLong_0" />
+      <node id="4213103153624884262" at="21,0,22,0" concept="2" trace="myMember_leverageShort_0" />
+      <node id="4213103153624218614" at="23,0,24,0" concept="2" trace="myIndex" />
+      <node id="4213103153624218614" at="24,0,25,0" concept="2" trace="myMembers" />
+      <node id="4213103153624218614" at="28,62,29,16" concept="6" />
+      <node id="4213103153624218614" at="34,68,35,21" concept="6" />
+      <node id="4213103153624218614" at="41,29,42,18" concept="6" />
+      <node id="4213103153624218620" at="45,17,46,30" concept="6" />
+      <node id="4213103153624218622" at="47,18,48,31" concept="6" />
+      <node id="4213103153624884258" at="49,26,50,39" concept="6" />
+      <node id="4213103153624884262" at="51,27,52,40" concept="6" />
+      <node id="4213103153624218614" at="53,5,54,16" concept="6" />
+      <node id="4213103153624218614" at="59,73,60,39" concept="5" />
+      <node id="4213103153624218614" at="61,22,62,18" concept="6" />
+      <node id="4213103153624218614" at="63,5,64,32" concept="6" />
+      <node id="4213103153624218614" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_orderType#()V" />
+      <node id="4213103153624218614" at="40,88,43,5" concept="3" />
+      <node id="4213103153624218614" at="60,39,63,5" concept="3" />
+      <node id="4213103153624218614" at="26,0,31,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4213103153624218614" at="32,0,37,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="4213103153624218614" at="57,0,66,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4213103153624218614" at="43,5,53,5" concept="10" />
+      <node id="4213103153624218614" at="38,0,56,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="4213103153624218614" at="14,44,15,187" />
+      <scope id="4213103153624218614" at="28,62,29,16" />
+      <scope id="4213103153624218614" at="34,68,35,21" />
+      <scope id="4213103153624218614" at="41,29,42,18" />
+      <scope id="4213103153624218620" at="45,17,46,30" />
+      <scope id="4213103153624218622" at="47,18,48,31" />
+      <scope id="4213103153624884258" at="49,26,50,39" />
+      <scope id="4213103153624884262" at="51,27,52,40" />
+      <scope id="4213103153624218614" at="61,22,62,18" />
+      <scope id="4213103153624218614" at="14,0,17,0" />
+      <scope id="4213103153624218614" at="26,0,31,0" />
+      <scope id="4213103153624218614" at="32,0,37,0" />
+      <scope id="4213103153624218614" at="59,73,64,32">
+        <var name="index" id="4213103153624218614" />
+      </scope>
+      <scope id="4213103153624218614" at="57,0,66,0">
+        <var name="idValue" id="4213103153624218614" />
+      </scope>
+      <scope id="4213103153624218614" at="40,88,54,16" />
+      <scope id="4213103153624218614" at="38,0,56,0">
+        <var name="memberName" id="4213103153624218614" />
+      </scope>
+      <unit id="4213103153624218614" at="12,0,67,0" name="jetbrain.mps.cryptoexchange.structure.EnumerationDescriptor_orderType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4213103153624218614" at="33,0,34,0" concept="2" trace="myEnumerationorderType" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/4213103153624884280">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4213103153624884280" at="13,0,14,0" concept="2" trace="props_TokenNetwork" />
+      <node id="4213103153624884280" at="36,41,37,76" concept="5" />
+      <node id="4213103153624884280" at="37,76,38,35" concept="1" />
+      <node id="4213103153624884280" at="38,35,39,44" concept="1" />
+      <node id="4213103153624884280" at="40,9,41,34" concept="6" />
+      <node id="4213103153624884280" at="35,46,40,9" concept="3" />
+      <scope id="4213103153624884280" at="36,41,39,44">
+        <var name="cpb" id="4213103153624884280" />
+      </scope>
+      <scope id="4213103153624884280" at="35,46,41,34" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4213103153624884280" at="13,0,14,0" concept="7" trace="TokenNetwork" />
+      <node id="4213103153624884280" at="25,51,26,51" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4213103153624884280" at="22,0,23,0" concept="2" trace="myConceptTokenNetwork" />
+      <node id="4213103153624884280" at="59,46,60,37" concept="6" />
+      <node id="4213103153624884280" at="101,70,102,174" concept="5" />
+      <node id="4213103153624884280" at="102,174,103,34" concept="1" />
+      <node id="4213103153624884280" at="103,34,104,71" concept="1" />
+      <node id="4213103153624884280" at="104,71,105,114" concept="1" />
+      <node id="4213103153624884280" at="105,114,106,17" concept="1" />
+      <node id="4213103153624884283" at="106,17,107,114" concept="1" />
+      <node id="4213103153624884285" at="107,114,108,109" concept="1" />
+      <node id="4213103153624884280" at="108,109,109,22" concept="6" />
+      <node id="4213103153624884280" at="101,0,111,0" concept="8" trace="createDescriptorForTokenNetwork#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4213103153624884280" at="59,46,60,37" />
+      <scope id="4213103153624884280" at="101,70,109,22">
+        <var name="b" id="4213103153624884280" />
+      </scope>
+      <scope id="4213103153624884280" at="101,0,111,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/4213103153626182976">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4213103153626182976" at="15,0,16,0" concept="2" trace="props_TransferRequest" />
+      <node id="4213103153626182976" at="50,44,51,76" concept="5" />
+      <node id="4213103153626182976" at="51,76,52,35" concept="1" />
+      <node id="4213103153626182976" at="52,35,53,47" concept="1" />
+      <node id="4213103153626182976" at="54,9,55,37" concept="6" />
+      <node id="4213103153626182976" at="49,49,54,9" concept="3" />
+      <scope id="4213103153626182976" at="50,44,53,47">
+        <var name="cpb" id="4213103153626182976" />
+      </scope>
+      <scope id="4213103153626182976" at="49,49,55,37" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4213103153626182976" at="15,0,16,0" concept="7" trace="TransferRequest" />
+      <node id="4213103153626182976" at="27,48,28,54" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4213103153626182976" at="24,0,25,0" concept="2" trace="myConceptTransferRequest" />
+      <node id="4213103153626182976" at="63,49,64,40" concept="6" />
+      <node id="4213103153626182976" at="122,73,123,177" concept="5" />
+      <node id="4213103153626182976" at="123,177,124,34" concept="1" />
+      <node id="4213103153626182976" at="124,34,125,71" concept="1" />
+      <node id="4213103153626182976" at="125,71,126,114" concept="1" />
+      <node id="4213103153626182976" at="126,114,127,17" concept="1" />
+      <node id="4293340948030759023" at="127,17,128,175" concept="1" />
+      <node id="4293340948030759030" at="128,175,129,177" concept="1" />
+      <node id="4293340948030759047" at="129,177,130,169" concept="1" />
+      <node id="4293340948031658400" at="130,169,131,175" concept="1" />
+      <node id="4213103153626182976" at="131,175,132,22" concept="6" />
+      <node id="4213103153626182976" at="122,0,134,0" concept="8" trace="createDescriptorForTransferRequest#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4213103153626182976" at="63,49,64,40" />
+      <scope id="4213103153626182976" at="122,73,132,22">
+        <var name="b" id="4213103153626182976" />
+      </scope>
+      <scope id="4213103153626182976" at="122,0,134,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/4293340948022428830">
+    <file name="EnumerationDescriptor_leverageType.java">
+      <node id="4293340948022428830" at="14,47,15,190" concept="9" />
+      <node id="4293340948022428831" at="18,0,19,0" concept="2" trace="myMember__1x_0" />
+      <node id="4293340948022428832" at="19,0,20,0" concept="2" trace="myMember__2x_0" />
+      <node id="4293340948022428835" at="20,0,21,0" concept="2" trace="myMember__5x_0" />
+      <node id="4293340948022428839" at="21,0,22,0" concept="2" trace="myMember__10x_0" />
+      <node id="4293340948022428830" at="23,0,24,0" concept="2" trace="myIndex" />
+      <node id="4293340948022428830" at="24,0,25,0" concept="2" trace="myMembers" />
+      <node id="4293340948022428830" at="28,62,29,26" concept="6" />
+      <node id="4293340948022428830" at="34,68,35,21" concept="6" />
+      <node id="4293340948022428830" at="41,29,42,18" concept="6" />
+      <node id="4293340948022428831" at="45,17,46,30" concept="6" />
+      <node id="4293340948022428832" at="47,17,48,30" concept="6" />
+      <node id="4293340948022428835" at="49,17,50,30" concept="6" />
+      <node id="4293340948022428839" at="51,18,52,31" concept="6" />
+      <node id="4293340948022428830" at="53,5,54,16" concept="6" />
+      <node id="4293340948022428830" at="59,73,60,39" concept="5" />
+      <node id="4293340948022428830" at="61,22,62,18" concept="6" />
+      <node id="4293340948022428830" at="63,5,64,32" concept="6" />
+      <node id="4293340948022428830" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_leverageType#()V" />
+      <node id="4293340948022428830" at="40,88,43,5" concept="3" />
+      <node id="4293340948022428830" at="60,39,63,5" concept="3" />
+      <node id="4293340948022428830" at="26,0,31,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4293340948022428830" at="32,0,37,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="4293340948022428830" at="57,0,66,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4293340948022428830" at="43,5,53,5" concept="10" />
+      <node id="4293340948022428830" at="38,0,56,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="4293340948022428830" at="14,47,15,190" />
+      <scope id="4293340948022428830" at="28,62,29,26" />
+      <scope id="4293340948022428830" at="34,68,35,21" />
+      <scope id="4293340948022428830" at="41,29,42,18" />
+      <scope id="4293340948022428831" at="45,17,46,30" />
+      <scope id="4293340948022428832" at="47,17,48,30" />
+      <scope id="4293340948022428835" at="49,17,50,30" />
+      <scope id="4293340948022428839" at="51,18,52,31" />
+      <scope id="4293340948022428830" at="61,22,62,18" />
+      <scope id="4293340948022428830" at="14,0,17,0" />
+      <scope id="4293340948022428830" at="26,0,31,0" />
+      <scope id="4293340948022428830" at="32,0,37,0" />
+      <scope id="4293340948022428830" at="59,73,64,32">
+        <var name="index" id="4293340948022428830" />
+      </scope>
+      <scope id="4293340948022428830" at="57,0,66,0">
+        <var name="idValue" id="4293340948022428830" />
+      </scope>
+      <scope id="4293340948022428830" at="40,88,54,16" />
+      <scope id="4293340948022428830" at="38,0,56,0">
+        <var name="memberName" id="4293340948022428830" />
+      </scope>
+      <unit id="4293340948022428830" at="12,0,67,0" name="jetbrain.mps.cryptoexchange.structure.EnumerationDescriptor_leverageType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4293340948022428830" at="32,0,33,0" concept="2" trace="myEnumerationleverageType" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/4293340948030759025">
+    <file name="EnumerationDescriptor_transferType.java">
+      <node id="4293340948030759025" at="14,47,15,190" concept="9" />
+      <node id="4293340948030759026" at="18,0,19,0" concept="2" trace="myMember_IntraExchange_0" />
+      <node id="4293340948030759027" at="19,0,20,0" concept="2" trace="myMember_ExtraExchange_0" />
+      <node id="4293340948030759025" at="21,0,22,0" concept="2" trace="myIndex" />
+      <node id="4293340948030759025" at="22,0,23,0" concept="2" trace="myMembers" />
+      <node id="4293340948030759025" at="26,62,27,16" concept="6" />
+      <node id="4293340948030759025" at="32,68,33,21" concept="6" />
+      <node id="4293340948030759025" at="39,29,40,18" concept="6" />
+      <node id="4293340948030759026" at="43,27,44,40" concept="6" />
+      <node id="4293340948030759027" at="45,27,46,40" concept="6" />
+      <node id="4293340948030759025" at="47,5,48,16" concept="6" />
+      <node id="4293340948030759025" at="53,73,54,39" concept="5" />
+      <node id="4293340948030759025" at="55,22,56,18" concept="6" />
+      <node id="4293340948030759025" at="57,5,58,32" concept="6" />
+      <node id="4293340948030759025" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_transferType#()V" />
+      <node id="4293340948030759025" at="38,88,41,5" concept="3" />
+      <node id="4293340948030759025" at="54,39,57,5" concept="3" />
+      <node id="4293340948030759025" at="24,0,29,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4293340948030759025" at="30,0,35,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="4293340948030759025" at="41,5,47,5" concept="10" />
+      <node id="4293340948030759025" at="51,0,60,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4293340948030759025" at="36,0,50,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="4293340948030759025" at="14,47,15,190" />
+      <scope id="4293340948030759025" at="26,62,27,16" />
+      <scope id="4293340948030759025" at="32,68,33,21" />
+      <scope id="4293340948030759025" at="39,29,40,18" />
+      <scope id="4293340948030759026" at="43,27,44,40" />
+      <scope id="4293340948030759027" at="45,27,46,40" />
+      <scope id="4293340948030759025" at="55,22,56,18" />
+      <scope id="4293340948030759025" at="14,0,17,0" />
+      <scope id="4293340948030759025" at="24,0,29,0" />
+      <scope id="4293340948030759025" at="30,0,35,0" />
+      <scope id="4293340948030759025" at="53,73,58,32">
+        <var name="index" id="4293340948030759025" />
+      </scope>
+      <scope id="4293340948030759025" at="51,0,60,0">
+        <var name="idValue" id="4293340948030759025" />
+      </scope>
+      <scope id="4293340948030759025" at="38,88,48,16" />
+      <scope id="4293340948030759025" at="36,0,50,0">
+        <var name="memberName" id="4293340948030759025" />
+      </scope>
+      <unit id="4293340948030759025" at="12,0,61,0" name="jetbrain.mps.cryptoexchange.structure.EnumerationDescriptor_transferType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4293340948030759025" at="34,0,35,0" concept="2" trace="myEnumerationtransferType" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/4293340948033128257">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4293340948033128257" at="19,0,20,0" concept="2" trace="props_savingOrder" />
+      <node id="4293340948033128257" at="78,40,79,76" concept="5" />
+      <node id="4293340948033128257" at="79,76,80,139" concept="1" />
+      <node id="4293340948033128257" at="80,139,81,43" concept="1" />
+      <node id="4293340948033128257" at="82,9,83,33" concept="6" />
+      <node id="4293340948033128257" at="77,45,82,9" concept="3" />
+      <scope id="4293340948033128257" at="78,40,81,43">
+        <var name="cpb" id="4293340948033128257" />
+      </scope>
+      <scope id="4293340948033128257" at="77,45,83,33" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4293340948033128257" at="19,0,20,0" concept="7" trace="savingOrder" />
+      <node id="4293340948033128257" at="31,44,32,50" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4293340948033128257" at="28,0,29,0" concept="2" trace="myConceptsavingOrder" />
+      <node id="4293340948033128257" at="71,45,72,36" concept="6" />
+      <node id="4293340948033128257" at="171,69,172,173" concept="5" />
+      <node id="4293340948033128257" at="172,173,173,34" concept="1" />
+      <node id="4293340948033128257" at="173,34,174,114" concept="1" />
+      <node id="4293340948033128257" at="174,114,175,17" concept="1" />
+      <node id="4293340948033128258" at="175,17,176,177" concept="1" />
+      <node id="4293340948033128260" at="176,177,177,116" concept="1" />
+      <node id="4293340948033128265" at="177,116,178,179" concept="1" />
+      <node id="4293340948033128263" at="178,179,179,169" concept="1" />
+      <node id="4293340948033128257" at="179,169,180,22" concept="6" />
+      <node id="4293340948033128257" at="171,0,182,0" concept="8" trace="createDescriptorForsavingOrder#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4293340948033128257" at="71,45,72,36" />
+      <scope id="4293340948033128257" at="171,69,180,22">
+        <var name="b" id="4293340948033128257" />
+      </scope>
+      <scope id="4293340948033128257" at="171,0,182,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/5397459514337941283">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5397459514337941283" at="21,0,22,0" concept="2" trace="props_token" />
+      <node id="5397459514337941283" at="92,34,93,76" concept="5" />
+      <node id="5397459514337941283" at="93,76,94,35" concept="1" />
+      <node id="5397459514337941283" at="94,35,95,37" concept="1" />
+      <node id="5397459514337941283" at="96,9,97,27" concept="6" />
+      <node id="5397459514337941283" at="91,39,96,9" concept="3" />
+      <scope id="5397459514337941283" at="92,34,95,37">
+        <var name="cpb" id="5397459514337941283" />
+      </scope>
+      <scope id="5397459514337941283" at="91,39,97,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5397459514337941283" at="21,0,22,0" concept="7" trace="token" />
+      <node id="5397459514337941283" at="33,48,34,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5397459514337941283" at="30,0,31,0" concept="2" trace="myConcepttoken" />
+      <node id="5397459514337941283" at="75,39,76,30" concept="6" />
+      <node id="5397459514337941283" at="194,63,195,167" concept="5" />
+      <node id="5397459514337941283" at="195,167,196,34" concept="1" />
+      <node id="5397459514337941283" at="196,34,197,71" concept="1" />
+      <node id="5397459514337941283" at="197,71,198,114" concept="1" />
+      <node id="5397459514337941283" at="198,114,199,17" concept="1" />
+      <node id="5397459514337941288" at="199,17,200,113" concept="1" />
+      <node id="5397459514337941290" at="200,113,201,114" concept="1" />
+      <node id="4213103153626087776" at="201,114,202,171" concept="1" />
+      <node id="5397459514337941283" at="202,171,203,22" concept="6" />
+      <node id="5397459514337941283" at="194,0,205,0" concept="8" trace="createDescriptorFortoken#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5397459514337941283" at="75,39,76,30" />
+      <scope id="5397459514337941283" at="194,63,203,22">
+        <var name="b" id="5397459514337941283" />
+      </scope>
+      <scope id="5397459514337941283" at="194,0,205,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/5397459514337941307">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5397459514337941307" at="12,0,13,0" concept="2" trace="props_TokenBalance" />
+      <node id="5397459514337941307" at="29,41,30,76" concept="5" />
+      <node id="5397459514337941307" at="30,76,31,35" concept="1" />
+      <node id="5397459514337941307" at="31,35,32,44" concept="1" />
+      <node id="5397459514337941307" at="33,9,34,34" concept="6" />
+      <node id="5397459514337941307" at="28,46,33,9" concept="3" />
+      <scope id="5397459514337941307" at="29,41,32,44">
+        <var name="cpb" id="5397459514337941307" />
+      </scope>
+      <scope id="5397459514337941307" at="28,46,34,34" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5397459514337941307" at="12,0,13,0" concept="7" trace="TokenBalance" />
+      <node id="5397459514337941307" at="24,116,25,51" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5397459514337941307" at="21,0,22,0" concept="2" trace="myConceptTokenBalance" />
+      <node id="5397459514337941307" at="57,46,58,37" concept="6" />
+      <node id="5397459514337941307" at="91,70,92,174" concept="5" />
+      <node id="5397459514337941307" at="92,174,93,34" concept="1" />
+      <node id="5397459514337941307" at="93,34,94,71" concept="1" />
+      <node id="5397459514337941307" at="94,71,95,114" concept="1" />
+      <node id="5397459514337941307" at="95,114,96,17" concept="1" />
+      <node id="5397459514337941313" at="96,17,97,178" concept="1" />
+      <node id="5397459514337941310" at="97,178,98,169" concept="1" />
+      <node id="5397459514337941307" at="98,169,99,22" concept="6" />
+      <node id="5397459514337941307" at="91,0,101,0" concept="8" trace="createDescriptorForTokenBalance#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5397459514337941307" at="57,46,58,37" />
+      <scope id="5397459514337941307" at="91,70,99,22">
+        <var name="b" id="5397459514337941307" />
+      </scope>
+      <scope id="5397459514337941307" at="91,0,101,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/5397459514337941321">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5397459514337941321" at="14,0,15,0" concept="2" trace="props_TokenPair" />
+      <node id="5397459514337941321" at="43,38,44,76" concept="5" />
+      <node id="5397459514337941321" at="44,76,45,35" concept="1" />
+      <node id="5397459514337941321" at="45,35,46,41" concept="1" />
+      <node id="5397459514337941321" at="47,9,48,31" concept="6" />
+      <node id="5397459514337941321" at="42,43,47,9" concept="3" />
+      <scope id="5397459514337941321" at="43,38,46,41">
+        <var name="cpb" id="5397459514337941321" />
+      </scope>
+      <scope id="5397459514337941321" at="42,43,48,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5397459514337941321" at="14,0,15,0" concept="7" trace="TokenPair" />
+      <node id="5397459514337941321" at="26,51,27,48" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5397459514337941321" at="23,0,24,0" concept="2" trace="myConceptTokenPair" />
+      <node id="5397459514337941321" at="61,43,62,34" concept="6" />
+      <node id="5397459514337941321" at="111,67,112,171" concept="5" />
+      <node id="5397459514337941321" at="112,171,113,34" concept="1" />
+      <node id="5397459514337941321" at="113,34,114,71" concept="1" />
+      <node id="5397459514337941321" at="114,71,115,114" concept="1" />
+      <node id="5397459514337941321" at="115,114,116,17" concept="1" />
+      <node id="5397459514337941335" at="116,17,117,176" concept="1" />
+      <node id="5397459514337941330" at="117,176,118,170" concept="1" />
+      <node id="5397459514337941332" at="118,170,119,170" concept="1" />
+      <node id="5397459514337941321" at="119,170,120,22" concept="6" />
+      <node id="5397459514337941321" at="111,0,122,0" concept="8" trace="createDescriptorForTokenPair#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5397459514337941321" at="61,43,62,34" />
+      <scope id="5397459514337941321" at="111,67,120,22">
+        <var name="b" id="5397459514337941321" />
+      </scope>
+      <scope id="5397459514337941321" at="111,0,122,0" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/5397459514337941337">
+    <file name="StructureAspectDescriptor.java">
+      <node id="5397459514337941337" at="35,0,36,0" concept="2" trace="myCSDatatype_decimal" />
+    </file>
+  </root>
+  <root nodeRef="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/5397459514337941341">
+    <file name="EnumerationDescriptor_AccountType.java">
+      <node id="5397459514337941341" at="14,46,15,189" concept="9" />
+      <node id="5397459514337941342" at="18,0,19,0" concept="2" trace="myMember_Future_0" />
+      <node id="5397459514337941343" at="19,0,20,0" concept="2" trace="myMember_Margin_0" />
+      <node id="5397459514337941346" at="20,0,21,0" concept="2" trace="myMember_Spot_0" />
+      <node id="5397459514337941350" at="21,0,22,0" concept="2" trace="myMember_Saving_0" />
+      <node id="5397459514337941341" at="23,0,24,0" concept="2" trace="myIndex" />
+      <node id="5397459514337941341" at="24,0,25,0" concept="2" trace="myMembers" />
+      <node id="5397459514337941341" at="28,62,29,27" concept="6" />
+      <node id="5397459514337941341" at="34,68,35,21" concept="6" />
+      <node id="5397459514337941341" at="41,29,42,18" concept="6" />
+      <node id="5397459514337941342" at="45,20,46,33" concept="6" />
+      <node id="5397459514337941343" at="47,20,48,33" concept="6" />
+      <node id="5397459514337941346" at="49,18,50,31" concept="6" />
+      <node id="5397459514337941350" at="51,20,52,33" concept="6" />
+      <node id="5397459514337941341" at="53,5,54,16" concept="6" />
+      <node id="5397459514337941341" at="59,73,60,39" concept="5" />
+      <node id="5397459514337941341" at="61,22,62,18" concept="6" />
+      <node id="5397459514337941341" at="63,5,64,32" concept="6" />
+      <node id="5397459514337941341" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_AccountType#()V" />
+      <node id="5397459514337941341" at="40,88,43,5" concept="3" />
+      <node id="5397459514337941341" at="60,39,63,5" concept="3" />
+      <node id="5397459514337941341" at="26,0,31,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="5397459514337941341" at="32,0,37,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="5397459514337941341" at="57,0,66,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="5397459514337941341" at="43,5,53,5" concept="10" />
+      <node id="5397459514337941341" at="38,0,56,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="5397459514337941341" at="14,46,15,189" />
+      <scope id="5397459514337941341" at="28,62,29,27" />
+      <scope id="5397459514337941341" at="34,68,35,21" />
+      <scope id="5397459514337941341" at="41,29,42,18" />
+      <scope id="5397459514337941342" at="45,20,46,33" />
+      <scope id="5397459514337941343" at="47,20,48,33" />
+      <scope id="5397459514337941346" at="49,18,50,31" />
+      <scope id="5397459514337941350" at="51,20,52,33" />
+      <scope id="5397459514337941341" at="61,22,62,18" />
+      <scope id="5397459514337941341" at="14,0,17,0" />
+      <scope id="5397459514337941341" at="26,0,31,0" />
+      <scope id="5397459514337941341" at="32,0,37,0" />
+      <scope id="5397459514337941341" at="59,73,64,32">
+        <var name="index" id="5397459514337941341" />
+      </scope>
+      <scope id="5397459514337941341" at="57,0,66,0">
+        <var name="idValue" id="5397459514337941341" />
+      </scope>
+      <scope id="5397459514337941341" at="40,88,54,16" />
+      <scope id="5397459514337941341" at="38,0,56,0">
+        <var name="memberName" id="5397459514337941341" />
+      </scope>
+      <unit id="5397459514337941341" at="12,0,67,0" name="jetbrain.mps.cryptoexchange.structure.EnumerationDescriptor_AccountType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5397459514337941341" at="31,0,32,0" concept="2" trace="myEnumerationAccountType" />
+    </file>
+  </root>
+</debug-info>
+
