@@ -11,6 +11,6 @@ public final class GeneratedFeedbackAspectFeedback implements FeedbackAspect {
   @NotNull
   @Override
   public Stream<FeedbackPerConceptDescriptor> getPerConceptDescriptors() {
-    return Stream.of(new order_FeedbackFeedback());
+    return Stream.of(new order_FeedbackFeedback(), new TransferRequest_FeedbackFeedback(), new account_FeedbackFeedback(), new TokenPair_FeedbackFeedback());
   }
 }

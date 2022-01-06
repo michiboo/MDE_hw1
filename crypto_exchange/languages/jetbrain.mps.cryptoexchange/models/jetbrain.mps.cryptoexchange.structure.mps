@@ -86,7 +86,7 @@
     <node concept="1TJgyi" id="1kp2dmopd5H" role="1TKVEl">
       <property role="IQ2nx" value="1520256062692053357" />
       <property role="TrG5h" value="IP" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="2XylinKh6bi" resolve="_ipaddress" />
     </node>
     <node concept="1TJgyi" id="1kp2dmopd5N" role="1TKVEl">
       <property role="IQ2nx" value="1520256062692053363" />
@@ -416,6 +416,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="2XylinKh6bi">
+    <property role="3F6X1D" value="3414385088933421778" />
+    <property role="TrG5h" value="_ipaddress" />
+    <property role="FLfZY" value="(\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}" />
   </node>
 </model>
 

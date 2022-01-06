@@ -17,6 +17,7 @@
     <import index="fudv" ref="r:9006e6ce-991d-45e3-a20f-0deb45783955(jetbrains.mps.lang.feedback.problem.childAndProp.feedback)" />
     <import index="qzsv" ref="r:63ce0387-25e9-4762-bec1-dac3eb032399(jetbrains.mps.lang.feedback.problem.structural.feedback)" />
     <import index="f8t0" ref="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="ea3159bf-f48e-4720-bde2-86dba75f0d34" name="jetbrains.mps.lang.context.defs">
@@ -81,6 +82,72 @@
       <node concept="1GjwBS" id="3Il0HxqXZHk" role="3JXyrO">
         <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
         <ref role="1Gj$d9" to="f8t0:3DRWJWaiLOC" resolve="amount" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2XylinKhRlH">
+    <ref role="3Z9TSV" to="f8t0:3DRWJW9XRl0" resolve="TransferRequest" />
+    <node concept="3QByp$" id="2XylinKhRlN" role="3QBEN7">
+      <node concept="16I2mz" id="2XylinKhRlO" role="16N$OO">
+        <node concept="16N$OT" id="2XylinKhRlP" role="16I2mt">
+          <property role="16N$OU" value="&quot;" />
+        </node>
+        <node concept="16N$OT" id="2XylinKhRlQ" role="16I2mt">
+          <property role="16N$OU" value="Account don't have enough balance to make a transfer&quot;" />
+        </node>
+        <node concept="16Iohu" id="2XylinKhRlR" role="16I2mt">
+          <node concept="3QpRc$" id="2XylinKhRlS" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GjwBS" id="2XylinKhRlT" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="f8t0:3Il0Hxr0M1Q" resolve="amount" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2XylinKhXhN">
+    <ref role="3Z9TSV" to="f8t0:1kp2dmopd6b" resolve="account" />
+    <node concept="3QByp$" id="2XylinKhXhO" role="3QBEN7">
+      <node concept="16I2mz" id="2XylinKhXhP" role="16N$OO">
+        <node concept="16N$OT" id="2XylinKhXhQ" role="16I2mt">
+          <property role="16N$OU" value="&quot;" />
+        </node>
+        <node concept="16N$OT" id="2XylinKhXhR" role="16I2mt">
+          <property role="16N$OU" value="The account name is invalid, account name must contain '0x'&quot;" />
+        </node>
+        <node concept="16Iohu" id="2XylinKhXhS" role="16I2mt">
+          <node concept="3QpRc$" id="2XylinKhXhT" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GjwBS" id="2XylinKhXhU" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2XylinKi1vz">
+    <ref role="3Z9TSV" to="f8t0:4FBCdjhE_t9" resolve="TokenPair" />
+    <node concept="3QByp$" id="2XylinKi1v$" role="3QBEN7">
+      <node concept="16I2mz" id="2XylinKi1v_" role="16N$OO">
+        <node concept="16N$OT" id="2XylinKi1vA" role="16I2mt">
+          <property role="16N$OU" value="&quot;" />
+        </node>
+        <node concept="16N$OT" id="2XylinKi1vB" role="16I2mt">
+          <property role="16N$OU" value="Token pair does not follow the right format. format should be 'TokenA / TokenB'&quot;" />
+        </node>
+        <node concept="16Iohu" id="2XylinKi1vC" role="16I2mt">
+          <node concept="3QpRc$" id="2XylinKi1vD" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GjwBS" id="2XylinKi1vE" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
       </node>
     </node>
   </node>

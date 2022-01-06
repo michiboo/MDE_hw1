@@ -14,7 +14,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,35,0" name="jetbrain.mps.cryptoexchange.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,37,0" name="jetbrain.mps.cryptoexchange.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:c2acfc4e-bba7-4c28-bd45-597d78d07316(jetbrain.mps.cryptoexchange.constraints)/3064282989107334925">
@@ -90,6 +90,76 @@
       <unit id="3064282989107334925" at="73,0,79,0" name="jetbrain.mps.cryptoexchange.constraints.order_Constraints$LINKS" />
       <unit id="4293340948030035603" at="27,0,56,0" name="jetbrain.mps.cryptoexchange.constraints.order_Constraints$Amount_Property" />
       <unit id="3064282989107334925" at="22,0,80,0" name="jetbrain.mps.cryptoexchange.constraints.order_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c2acfc4e-bba7-4c28-bd45-597d78d07316(jetbrain.mps.cryptoexchange.constraints)/3414385088933437336">
+    <file name="TransferRequest_Constraints.java">
+      <node id="3414385088933437336" at="23,40,24,39" concept="11" />
+      <node id="3414385088933437400" at="28,61,29,62" concept="11" />
+      <node id="3414385088933437400" at="32,109,33,99" concept="6" />
+      <node id="3414385088933437400" at="34,53,35,168" concept="2" />
+      <node id="3414385088933437400" at="36,7,37,20" concept="7" />
+      <node id="3414385088933534313" at="40,151,41,20" concept="7" />
+      <node id="3414385088933534332" at="44,148,45,23" concept="7" />
+      <node id="3414385088933534364" at="47,7,48,18" concept="7" />
+      <node id="3414385088933534320" at="50,54,51,42" concept="7" />
+      <node id="3414385088933437336" at="55,84,56,119" concept="6" />
+      <node id="3414385088933437400" at="56,119,57,65" concept="2" />
+      <node id="3414385088933437336" at="57,65,58,22" concept="7" />
+      <node id="3414385088933437336" at="62,0,63,0" concept="9" trace="TransferRequest$jw" />
+      <node id="3414385088933437336" at="66,0,67,0" concept="9" trace="amount$SYCn" />
+      <node id="3414385088933437336" at="67,0,68,0" concept="9" trace="balance$WJS_" />
+      <node id="3414385088933437336" at="71,0,72,0" concept="9" trace="Destination$Mli1" />
+      <node id="3414385088933437336" at="72,0,73,0" concept="9" trace="TokenBalance$iIxI" />
+      <node id="3414385088933437336" at="23,0,26,0" concept="1" trace="TransferRequest_Constraints#()V" />
+      <node id="3414385088933437400" at="28,0,31,0" concept="1" trace="Amount_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="3414385088933437400" at="33,99,36,7" concept="4" />
+      <node id="3414385088933534311" at="39,85,42,7" concept="4" />
+      <node id="3414385088933534330" at="43,135,46,9" concept="4" />
+      <node id="3414385088933534320" at="50,0,53,0" concept="10" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="3414385088933534326" at="42,7,47,7" concept="3" />
+      <node id="3414385088933437336" at="54,0,60,0" concept="5" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="3414385088933437400" at="31,0,39,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="3414385088933437400" at="39,0,50,0" concept="10" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <scope id="3414385088933437336" at="23,40,24,39" />
+      <scope id="3414385088933437400" at="28,61,29,62" />
+      <scope id="3414385088933437400" at="34,53,35,168" />
+      <scope id="3414385088933534312" at="40,151,41,20" />
+      <scope id="3414385088933534331" at="44,148,45,23" />
+      <scope id="3414385088933534320" at="50,54,51,42" />
+      <scope id="3414385088933437336" at="23,0,26,0" />
+      <scope id="3414385088933437400" at="28,0,31,0">
+        <var name="container" id="3414385088933437400" />
+      </scope>
+      <scope id="3414385088933534327" at="43,135,46,9" />
+      <scope id="3414385088933534320" at="50,0,53,0">
+        <var name="str" id="3414385088933534320" />
+      </scope>
+      <scope id="3414385088933437336" at="55,84,58,22">
+        <var name="properties" id="3414385088933437336" />
+      </scope>
+      <scope id="3414385088933437400" at="32,109,37,20">
+        <var name="result" id="3414385088933437400" />
+      </scope>
+      <scope id="3414385088933534326" at="42,7,47,7">
+        <var name="bal" id="3414385088933534357" />
+      </scope>
+      <scope id="3414385088933437336" at="54,0,60,0" />
+      <scope id="3414385088933437400" at="31,0,39,0">
+        <var name="checkingNodeContext" id="3414385088933437400" />
+        <var name="node" id="3414385088933437400" />
+        <var name="propertyValue" id="3414385088933437400" />
+      </scope>
+      <scope id="3414385088933437574" at="39,85,48,18" />
+      <scope id="3414385088933437400" at="39,0,50,0">
+        <var name="node" id="3414385088933437400" />
+        <var name="propertyValue" id="3414385088933437400" />
+      </scope>
+      <unit id="3414385088933437336" at="61,0,64,0" name="jetbrain.mps.cryptoexchange.constraints.TransferRequest_Constraints$CONCEPTS" />
+      <unit id="3414385088933437336" at="65,0,69,0" name="jetbrain.mps.cryptoexchange.constraints.TransferRequest_Constraints$PROPS" />
+      <unit id="3414385088933437336" at="70,0,74,0" name="jetbrain.mps.cryptoexchange.constraints.TransferRequest_Constraints$LINKS" />
+      <unit id="3414385088933437400" at="27,0,54,0" name="jetbrain.mps.cryptoexchange.constraints.TransferRequest_Constraints$Amount_Property" />
+      <unit id="3414385088933437336" at="22,0,75,0" name="jetbrain.mps.cryptoexchange.constraints.TransferRequest_Constraints" />
     </file>
   </root>
   <root nodeRef="r:c2acfc4e-bba7-4c28-bd45-597d78d07316(jetbrain.mps.cryptoexchange.constraints)/4213103153626788327">

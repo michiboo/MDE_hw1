@@ -33,6 +33,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final EnumerationDescriptor myEnumerationorderType = new EnumerationDescriptor_orderType();
   /*package*/ final EnumerationDescriptor myEnumerationtransferType = new EnumerationDescriptor_transferType();
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_decimal = new ConstrainedStringDatatypeDescriptorImpl(0x885932350df545d0L, 0xbc76936b0ff5f304L, 0x4ae7a0d4d1aa5759L, "_decimal", "r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/5397459514337941337", "-?[0-9]+\\.[0-9]*([Ee][\\+\\-]?[0-9]+)?[dD]?");
+  /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_ipaddress = new ConstrainedStringDatatypeDescriptorImpl(0x885932350df545d0L, 0xbc76936b0ff5f304L, 0x2f625525f04462d2L, "_ipaddress", "r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/3414385088933421778", "(\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}");
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -81,7 +82,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationAccountType, myEnumerationleverageType, myEnumerationorderType, myEnumerationtransferType, myCSDatatype_decimal);
+    return Arrays.asList(myEnumerationAccountType, myEnumerationleverageType, myEnumerationorderType, myEnumerationtransferType, myCSDatatype_decimal, myCSDatatype_ipaddress);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -147,7 +148,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)/1520256062691969658");
     b.version(2);
-    b.property("IP", 0x151908d59864d16dL).type(PrimitiveTypeId.STRING).origin("1520256062692053357").done();
+    b.property("IP", 0x151908d59864d16dL).type(MetaIdFactory.dataTypeId(0x885932350df545d0L, 0xbc76936b0ff5f304L, 0x2f625525f04462d2L)).origin("1520256062692053357").done();
     b.property("DomainName", 0x151908d59864d173L).type(PrimitiveTypeId.STRING).origin("1520256062692053363").done();
     b.aggregate("SubSytem", 0x151908d59864d169L).target(0x885932350df545d0L, 0xbc76936b0ff5f304L, 0x151908d59864d166L).optional(false).ordered(true).multiple(true).origin("1520256062692053353").done();
     b.aggregate("Token", 0x2a868524b0fdb71bL).target(0x885932350df545d0L, 0xbc76936b0ff5f304L, 0x4ae7a0d4d1aa5723L).optional(false).ordered(true).multiple(true).origin("3064282989106935579").done();

@@ -10,6 +10,81 @@
       <unit at="10,0,17,0" name="jetbrain.mps.cryptoexchange.feedback.GeneratedFeedbackAspectFeedback" />
     </file>
   </root>
+  <root nodeRef="r:5ac765ab-efae-4559-8e42-a9c213215a83(jetbrain.mps.cryptoexchange.feedback)/3414385088933623149">
+    <file name="TransferRequest_FeedbackFeedback.java">
+      <node id="3414385088933623149" at="21,0,22,0" concept="3" trace="CONCEPT" />
+      <node id="3414385088933623155" at="26,87,27,105" concept="2" />
+      <node id="3414385088933623149" at="31,0,32,0" concept="3" trace="PROVIDERS" />
+      <node id="3414385088933623149" at="33,45,34,19" concept="4" />
+      <node id="3414385088933623149" at="39,58,40,30" concept="2" />
+      <node id="3414385088933623149" at="44,0,45,0" concept="3" trace="amount$SYCn" />
+      <node id="3414385088933623149" at="33,0,36,0" concept="0" trace="TransferRequest_FeedbackFeedback#()V" />
+      <node id="3414385088933623155" at="24,0,29,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/feedback/messages/FailingPropertyConstraintContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="3414385088933623149" at="37,0,42,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="3414385088933623155" at="23,0,30,0" concept="3" trace="MSGPROVIDER_WhenPropertyConstraintFails_p6bc7m_a" />
+      <scope id="3414385088933623155" at="26,87,27,105" />
+      <scope id="3414385088933623149" at="33,45,34,19" />
+      <scope id="3414385088933623149" at="39,58,40,30" />
+      <scope id="3414385088933623149" at="33,0,36,0" />
+      <scope id="3414385088933623155" at="24,0,29,0">
+        <var name="context" id="3414385088933623155" />
+      </scope>
+      <scope id="3414385088933623149" at="37,0,42,0" />
+      <unit id="3414385088933623149" at="43,0,46,0" name="jetbrain.mps.cryptoexchange.feedback.TransferRequest_FeedbackFeedback$PROPS" />
+      <unit id="3414385088933623155" at="23,129,29,3" name="jetbrain.mps.cryptoexchange.feedback.TransferRequest_FeedbackFeedback$1" />
+      <unit id="3414385088933623149" at="20,0,47,0" name="jetbrain.mps.cryptoexchange.feedback.TransferRequest_FeedbackFeedback" />
+    </file>
+  </root>
+  <root nodeRef="r:5ac765ab-efae-4559-8e42-a9c213215a83(jetbrain.mps.cryptoexchange.feedback)/3414385088933647475">
+    <file name="account_FeedbackFeedback.java">
+      <node id="3414385088933647475" at="21,0,22,0" concept="3" trace="CONCEPT" />
+      <node id="3414385088933647476" at="26,87,27,112" concept="2" />
+      <node id="3414385088933647475" at="31,0,32,0" concept="3" trace="PROVIDERS" />
+      <node id="3414385088933647475" at="33,37,34,19" concept="4" />
+      <node id="3414385088933647475" at="39,58,40,30" concept="2" />
+      <node id="3414385088933647475" at="44,0,45,0" concept="3" trace="name$MnvL" />
+      <node id="3414385088933647475" at="33,0,36,0" concept="0" trace="account_FeedbackFeedback#()V" />
+      <node id="3414385088933647476" at="24,0,29,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/feedback/messages/FailingPropertyConstraintContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="3414385088933647475" at="37,0,42,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="3414385088933647476" at="23,0,30,0" concept="3" trace="MSGPROVIDER_WhenPropertyConstraintFails_33outq_a" />
+      <scope id="3414385088933647476" at="26,87,27,112" />
+      <scope id="3414385088933647475" at="33,37,34,19" />
+      <scope id="3414385088933647475" at="39,58,40,30" />
+      <scope id="3414385088933647475" at="33,0,36,0" />
+      <scope id="3414385088933647476" at="24,0,29,0">
+        <var name="context" id="3414385088933647476" />
+      </scope>
+      <scope id="3414385088933647475" at="37,0,42,0" />
+      <unit id="3414385088933647475" at="43,0,46,0" name="jetbrain.mps.cryptoexchange.feedback.account_FeedbackFeedback$PROPS" />
+      <unit id="3414385088933647476" at="23,129,29,3" name="jetbrain.mps.cryptoexchange.feedback.account_FeedbackFeedback$1" />
+      <unit id="3414385088933647475" at="20,0,47,0" name="jetbrain.mps.cryptoexchange.feedback.account_FeedbackFeedback" />
+    </file>
+  </root>
+  <root nodeRef="r:5ac765ab-efae-4559-8e42-a9c213215a83(jetbrain.mps.cryptoexchange.feedback)/3414385088933664739">
+    <file name="TokenPair_FeedbackFeedback.java">
+      <node id="3414385088933664739" at="21,0,22,0" concept="3" trace="CONCEPT" />
+      <node id="3414385088933664740" at="26,87,27,132" concept="2" />
+      <node id="3414385088933664739" at="31,0,32,0" concept="3" trace="PROVIDERS" />
+      <node id="3414385088933664739" at="33,39,34,19" concept="4" />
+      <node id="3414385088933664739" at="39,58,40,30" concept="2" />
+      <node id="3414385088933664739" at="44,0,45,0" concept="3" trace="name$MnvL" />
+      <node id="3414385088933664739" at="33,0,36,0" concept="0" trace="TokenPair_FeedbackFeedback#()V" />
+      <node id="3414385088933664740" at="24,0,29,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/feedback/messages/FailingPropertyConstraintContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="3414385088933664739" at="37,0,42,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="3414385088933664740" at="23,0,30,0" concept="3" trace="MSGPROVIDER_WhenPropertyConstraintFails_1etsnv_a" />
+      <scope id="3414385088933664740" at="26,87,27,132" />
+      <scope id="3414385088933664739" at="33,39,34,19" />
+      <scope id="3414385088933664739" at="39,58,40,30" />
+      <scope id="3414385088933664739" at="33,0,36,0" />
+      <scope id="3414385088933664740" at="24,0,29,0">
+        <var name="context" id="3414385088933664740" />
+      </scope>
+      <scope id="3414385088933664739" at="37,0,42,0" />
+      <unit id="3414385088933664739" at="43,0,46,0" name="jetbrain.mps.cryptoexchange.feedback.TokenPair_FeedbackFeedback$PROPS" />
+      <unit id="3414385088933664740" at="23,129,29,3" name="jetbrain.mps.cryptoexchange.feedback.TokenPair_FeedbackFeedback$1" />
+      <unit id="3414385088933664739" at="20,0,47,0" name="jetbrain.mps.cryptoexchange.feedback.TokenPair_FeedbackFeedback" />
+    </file>
+  </root>
   <root nodeRef="r:5ac765ab-efae-4559-8e42-a9c213215a83(jetbrain.mps.cryptoexchange.feedback)/4293340948030028598">
     <file name="order_FeedbackFeedback.java">
       <node id="4293340948030028598" at="21,0,22,0" concept="3" trace="CONCEPT" />

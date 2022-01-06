@@ -2612,13 +2612,20 @@
   <root nodeRef="r:d6b850f6-71e5-4204-a84c-3ce50e623464(jetbrain.mps.cryptoexchange.editor)/4293340948031108329">
     <file name="TransferRequest_Editor.java">
       <node id="4293340948031108329" at="11,79,12,81" concept="6" />
+      <node id="4293340948031108329" at="14,82,15,84" concept="6" />
       <node id="4293340948031108329" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4293340948031108329" at="14,0,17,0" concept="4" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="4293340948031108329" at="11,79,12,81" />
+      <scope id="4293340948031108329" at="14,82,15,84" />
       <scope id="4293340948031108329" at="11,0,14,0">
         <var name="editorContext" id="4293340948031108329" />
         <var name="node" id="4293340948031108329" />
       </scope>
-      <unit id="4293340948031108329" at="10,0,15,0" name="jetbrain.mps.cryptoexchange.editor.TransferRequest_Editor" />
+      <scope id="4293340948031108329" at="14,0,17,0">
+        <var name="editorContext" id="4293340948031108329" />
+        <var name="node" id="4293340948031108329" />
+      </scope>
+      <unit id="4293340948031108329" at="10,0,18,0" name="jetbrain.mps.cryptoexchange.editor.TransferRequest_Editor" />
     </file>
     <file name="TransferRequest_EditorBuilder_a.java">
       <node id="4293340948031108329" at="39,95,40,19" concept="9" />
@@ -3007,6 +3014,37 @@
       <unit id="4293340948031108442" at="149,0,196,0" name="jetbrain.mps.cryptoexchange.editor.TransferRequest_EditorBuilder_a$Inline_Builder0" />
       <unit id="4293340948031658506" at="269,0,316,0" name="jetbrain.mps.cryptoexchange.editor.TransferRequest_EditorBuilder_a$Inline_Builder1" />
       <unit id="4293340948031108329" at="35,0,333,0" name="jetbrain.mps.cryptoexchange.editor.TransferRequest_EditorBuilder_a" />
+    </file>
+    <file name="TransferRequest_InspectorBuilder_a.java">
+      <node id="4293340948031108329" at="16,98,17,19" concept="9" />
+      <node id="4293340948031108329" at="17,19,18,18" concept="1" />
+      <node id="4293340948031108329" at="23,26,24,18" concept="6" />
+      <node id="4293340948031108329" at="27,39,28,30" concept="6" />
+      <node id="3414385088933437332" at="31,41,32,93" concept="5" />
+      <node id="3414385088933437332" at="32,93,33,46" concept="1" />
+      <node id="3414385088933437332" at="33,46,34,28" concept="1" />
+      <node id="3414385088933437332" at="34,28,35,31" concept="1" />
+      <node id="3414385088933437332" at="35,31,36,34" concept="1" />
+      <node id="3414385088933437332" at="36,34,37,22" concept="6" />
+      <node id="4293340948031108329" at="13,0,15,0" concept="2" trace="myNode" />
+      <node id="4293340948031108329" at="27,0,30,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4293340948031108329" at="16,0,20,0" concept="0" trace="TransferRequest_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4293340948031108329" at="21,0,26,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3414385088933437332" at="31,0,39,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="4293340948031108329" at="23,26,24,18" />
+      <scope id="4293340948031108329" at="27,39,28,30" />
+      <scope id="4293340948031108329" at="16,98,18,18" />
+      <scope id="4293340948031108329" at="27,0,30,0" />
+      <scope id="4293340948031108329" at="16,0,20,0">
+        <var name="context" id="4293340948031108329" />
+        <var name="node" id="4293340948031108329" />
+      </scope>
+      <scope id="4293340948031108329" at="21,0,26,0" />
+      <scope id="3414385088933437332" at="31,41,37,22">
+        <var name="editorCell" id="3414385088933437332" />
+      </scope>
+      <scope id="3414385088933437332" at="31,0,39,0" />
+      <unit id="4293340948031108329" at="12,0,40,0" name="jetbrain.mps.cryptoexchange.editor.TransferRequest_InspectorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:d6b850f6-71e5-4204-a84c-3ce50e623464(jetbrain.mps.cryptoexchange.editor)/5397459514337941363">
