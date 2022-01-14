@@ -86,7 +86,7 @@
     <node concept="1TJgyi" id="1kp2dmopd5H" role="1TKVEl">
       <property role="IQ2nx" value="1520256062692053357" />
       <property role="TrG5h" value="IP" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="53arKMgxJ$U" resolve="_ipaddress" />
     </node>
     <node concept="1TJgyi" id="1kp2dmopd5N" role="1TKVEl">
       <property role="IQ2nx" value="1520256062692053363" />
@@ -191,7 +191,7 @@
     <node concept="1TJgyi" id="4FBCdjhE_t1" role="1TKVEl">
       <property role="IQ2nx" value="5397459514337941313" />
       <property role="TrG5h" value="balance" />
-      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="decimal" />
+      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="_decimal" />
     </node>
     <node concept="PrWs8" id="7JFEthsIrAR" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -219,7 +219,7 @@
     <node concept="1TJgyi" id="4FBCdjhE_tn" role="1TKVEl">
       <property role="IQ2nx" value="5397459514337941335" />
       <property role="TrG5h" value="price" />
-      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="decimal" />
+      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="_decimal" />
     </node>
   </node>
   <node concept="Az7Fb" id="4FBCdjhE_tp">
@@ -251,7 +251,7 @@
   <node concept="1TIwiD" id="2E6xiiL0WVW">
     <property role="EcuMT" value="3064282989107334908" />
     <property role="TrG5h" value="order" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2E6xiiL0WVZ" role="1TKVEl">
       <property role="IQ2nx" value="3064282989107334911" />
       <property role="TrG5h" value="ID" />
@@ -260,7 +260,7 @@
     <node concept="1TJgyi" id="2E6xiiL0WW3" role="1TKVEl">
       <property role="IQ2nx" value="3064282989107334915" />
       <property role="TrG5h" value="Price" />
-      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="decimal" />
+      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="_decimal" />
     </node>
     <node concept="1TJgyi" id="1BlYseg4t82" role="1TKVEl">
       <property role="IQ2nx" value="1861668639318594050" />
@@ -313,7 +313,7 @@
   <node concept="1TIwiD" id="3DRWJW9SUgS">
     <property role="EcuMT" value="4213103153624884280" />
     <property role="TrG5h" value="TokenNetwork" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3DRWJW9SUgT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -331,7 +331,7 @@
   <node concept="1TIwiD" id="3DRWJW9XRl0">
     <property role="EcuMT" value="4213103153626182976" />
     <property role="TrG5h" value="TransferRequest" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3DRWJW9XRl1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -394,7 +394,7 @@
   <node concept="1TIwiD" id="3Il0Hxr9Ot1">
     <property role="EcuMT" value="4293340948033128257" />
     <property role="TrG5h" value="savingOrder" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3Il0Hxr9Ot2" role="1TKVEl">
       <property role="IQ2nx" value="4293340948033128258" />
       <property role="TrG5h" value="amount" />
@@ -416,6 +416,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="53arKMgxJ$U">
+    <property role="3F6X1D" value="5821587568084842810" />
+    <property role="TrG5h" value="_ipaddress" />
+    <property role="FLfZY" value="(\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}                                                                    \n                                                                                                               \n    matching regexp: (\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}" />
   </node>
 </model>
 

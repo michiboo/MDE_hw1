@@ -17,6 +17,7 @@
     <import index="fudv" ref="r:9006e6ce-991d-45e3-a20f-0deb45783955(jetbrains.mps.lang.feedback.problem.childAndProp.feedback)" />
     <import index="qzsv" ref="r:63ce0387-25e9-4762-bec1-dac3eb032399(jetbrains.mps.lang.feedback.problem.structural.feedback)" />
     <import index="f8t0" ref="r:984aa0d0-cdbe-4539-96fb-298ff1435c32(jetbrain.mps.cryptoexchange.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="ea3159bf-f48e-4720-bde2-86dba75f0d34" name="jetbrains.mps.lang.context.defs">
@@ -79,8 +80,68 @@
         </node>
       </node>
       <node concept="1GjwBS" id="3Il0HxqXZHk" role="3JXyrO">
-        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
         <ref role="1Gj$d9" to="f8t0:3DRWJWaiLOC" resolve="amount" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="53arKMgyoSa">
+    <ref role="3Z9TSV" to="f8t0:1kp2dmopd6b" resolve="account" />
+    <node concept="3QByp$" id="4Cl1JtMH3I3" role="3QBEN7">
+      <node concept="16I2mz" id="4Cl1JtMH3I4" role="16N$OO">
+        <node concept="16N$OT" id="4Cl1JtMH3Id" role="16I2mt">
+          <property role="16N$OU" value="&quot;The account name is invalid, account name must contain '0x'" />
+        </node>
+        <node concept="16Iohu" id="4Cl1JtMH3Ib" role="16I2mt">
+          <node concept="3QpRc$" id="4Cl1JtMH3Ic" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+        <node concept="16N$OT" id="4Cl1JtMH3Ie" role="16I2mt">
+          <property role="16N$OU" value="&quot;" />
+        </node>
+      </node>
+      <node concept="1GjwBS" id="4Cl1JtMH3I2" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="4Cl1JtMH3Io">
+    <ref role="3Z9TSV" to="f8t0:4FBCdjhE_t9" resolve="TokenPair" />
+    <node concept="3QByp$" id="4Cl1JtMH3Iq" role="3QBEN7">
+      <node concept="16I2mz" id="4Cl1JtMH3Ir" role="16N$OO">
+        <node concept="16N$OT" id="4Cl1JtMH3IA" role="16I2mt">
+          <property role="16N$OU" value="&quot; pair does not follow the right format. format should be 'TokenA / TokenB'&quot;" />
+        </node>
+        <node concept="16Iohu" id="4Cl1JtMH3I$" role="16I2mt">
+          <node concept="3QpRc$" id="4Cl1JtMH3I_" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GjwBS" id="4Cl1JtMH3Ip" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="4Cl1JtMH3IJ">
+    <ref role="3Z9TSV" to="f8t0:3DRWJW9XRl0" resolve="TransferRequest" />
+    <node concept="3QByp$" id="4Cl1JtMH3IL" role="3QBEN7">
+      <node concept="16I2mz" id="4Cl1JtMH3IM" role="16N$OO">
+        <node concept="16N$OT" id="4Cl1JtMH3IV" role="16I2mt">
+          <property role="16N$OU" value="&quot;Account don't have enough balance to make a transfer&quot;" />
+        </node>
+        <node concept="16Iohu" id="4Cl1JtMH3IT" role="16I2mt">
+          <node concept="3QpRc$" id="4Cl1JtMH3IU" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GjwBS" id="4Cl1JtMH3IK" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="f8t0:3Il0Hxr0M1Q" resolve="amount" />
       </node>
     </node>
   </node>
