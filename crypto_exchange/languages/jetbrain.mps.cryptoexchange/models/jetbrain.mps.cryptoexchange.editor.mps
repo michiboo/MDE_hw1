@@ -122,6 +122,21 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="4Cl1JtMWCW9" role="3EZMnx">
+        <property role="3F0ifm" value="IP Address: " />
+        <node concept="lj46D" id="4Cl1JtMXs63" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4Cl1JtMWCUA" role="3EZMnx">
+        <ref role="1NtTu8" to="f8t0:1kp2dmopd5H" resolve="IP" />
+        <node concept="ljvvj" id="4Cl1JtMWCVI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4Cl1JtMWCVK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="3DRWJW9TPbj" role="3EZMnx">
         <ref role="1NtTu8" to="f8t0:3DRWJW9TPb1" resolve="TokenNetwork" />
         <node concept="l2Vlx" id="3DRWJW9TPbm" role="2czzBx" />

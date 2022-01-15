@@ -102,26 +102,7 @@
         </node>
       </node>
       <node concept="1GjwBS" id="4Cl1JtMH3I2" role="3JXyrO">
-        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
-        <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
-      </node>
-    </node>
-  </node>
-  <node concept="3QByoM" id="4Cl1JtMH3Io">
-    <ref role="3Z9TSV" to="f8t0:4FBCdjhE_t9" resolve="TokenPair" />
-    <node concept="3QByp$" id="4Cl1JtMH3Iq" role="3QBEN7">
-      <node concept="16I2mz" id="4Cl1JtMH3Ir" role="16N$OO">
-        <node concept="16N$OT" id="4Cl1JtMH3IA" role="16I2mt">
-          <property role="16N$OU" value="&quot; pair does not follow the right format. format should be 'TokenA / TokenB'&quot;" />
-        </node>
-        <node concept="16Iohu" id="4Cl1JtMH3I$" role="16I2mt">
-          <node concept="3QpRc$" id="4Cl1JtMH3I_" role="9Y7m$">
-            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
-          </node>
-        </node>
-      </node>
-      <node concept="1GjwBS" id="4Cl1JtMH3Ip" role="3JXyrO">
-        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
         <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
       </node>
     </node>
@@ -140,8 +121,27 @@
         </node>
       </node>
       <node concept="1GjwBS" id="4Cl1JtMH3IK" role="3JXyrO">
-        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
         <ref role="1Gj$d9" to="f8t0:3Il0Hxr0M1Q" resolve="amount" />
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="4Cl1JtMMmlW">
+    <ref role="3Z9TSV" to="f8t0:4FBCdjhE_t9" resolve="TokenPair" />
+    <node concept="3QByp$" id="4Cl1JtMMmm0" role="3QBEN7">
+      <node concept="16I2mz" id="4Cl1JtMMmm1" role="16N$OO">
+        <node concept="16N$OT" id="4Cl1JtMMmma" role="16I2mt">
+          <property role="16N$OU" value="&quot;Token pair does not follow the right format. format should be 'TokenA / TokenB'&quot;" />
+        </node>
+        <node concept="16Iohu" id="4Cl1JtMMmm8" role="16I2mt">
+          <node concept="3QpRc$" id="4Cl1JtMMmm9" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1GjwBS" id="4Cl1JtMMmlZ" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="tpck:h0TrG11" resolve="name" />
       </node>
     </node>
   </node>
