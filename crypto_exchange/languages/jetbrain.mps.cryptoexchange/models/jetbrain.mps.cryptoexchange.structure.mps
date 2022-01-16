@@ -292,7 +292,7 @@
   </node>
   <node concept="25R3W" id="3DRWJW9QnJQ">
     <property role="3F6X1D" value="4213103153624218614" />
-    <property role="TrG5h" value="orderType" />
+    <property role="TrG5h" value="OrderType" />
     <node concept="25R33" id="3DRWJW9QnJW" role="25R1y">
       <property role="3tVfz5" value="4213103153624218620" />
       <property role="TrG5h" value="buy" />
@@ -360,7 +360,7 @@
   </node>
   <node concept="25R3W" id="3Il0Hxqx0iu">
     <property role="3F6X1D" value="4293340948022428830" />
-    <property role="TrG5h" value="leverageType" />
+    <property role="TrG5h" value="LeverageType" />
     <ref role="1H5jkz" node="3Il0Hxqx0iv" resolve="_1x" />
     <node concept="25R33" id="3Il0Hxqx0iv" role="25R1y">
       <property role="3tVfz5" value="4293340948022428831" />
@@ -381,7 +381,7 @@
   </node>
   <node concept="25R3W" id="3Il0Hxr0M1L">
     <property role="3F6X1D" value="4293340948030759025" />
-    <property role="TrG5h" value="transferType" />
+    <property role="TrG5h" value="TransferType" />
     <node concept="25R33" id="3Il0Hxr0M1M" role="25R1y">
       <property role="3tVfz5" value="4293340948030759026" />
       <property role="TrG5h" value="IntraExchange" />
