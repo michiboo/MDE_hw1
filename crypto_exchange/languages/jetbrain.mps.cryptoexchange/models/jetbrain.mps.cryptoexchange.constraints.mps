@@ -159,7 +159,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="2E6xiiL0WWd">
-    <ref role="1M2myG" to="f8t0:2E6xiiL0WVW" resolve="order" />
+    <ref role="1M2myG" to="f8t0:2E6xiiL0WVW" resolve="Order" />
     <node concept="EnEH3" id="3Il0HxqY1qj" role="1MhHOB">
       <ref role="EomxK" to="f8t0:3DRWJWaiLOC" resolve="amount" />
       <node concept="QB0g5" id="3Il0HxqY2Jt" role="QCWH9">
@@ -302,13 +302,13 @@
             <property role="TrG5h" value="checkTokensExist" />
             <node concept="2hMVRd" id="1BlYseg2HBG" role="1tU5fm">
               <node concept="3Tqbb2" id="1BlYseg2HBH" role="2hN53Y">
-                <ref role="ehGHo" to="f8t0:4FBCdjhE_sz" resolve="token" />
+                <ref role="ehGHo" to="f8t0:4FBCdjhE_sz" resolve="Token" />
               </node>
             </node>
             <node concept="2ShNRf" id="1BlYseg2HBI" role="33vP2m">
               <node concept="2i4dXS" id="1BlYseg2HBJ" role="2ShVmc">
                 <node concept="3Tqbb2" id="1BlYseg2HBK" role="HW$YZ">
-                  <ref role="ehGHo" to="f8t0:4FBCdjhE_sz" resolve="token" />
+                  <ref role="ehGHo" to="f8t0:4FBCdjhE_sz" resolve="Token" />
                 </node>
               </node>
             </node>
@@ -370,7 +370,7 @@
             <node concept="1PxgMI" id="1BlYseg39mN" role="2Oq$k0">
               <property role="1BlNFB" value="true" />
               <node concept="chp4Y" id="1BlYseg39$e" role="3oSUPX">
-                <ref role="cht4Q" to="f8t0:1kp2dmopd6b" resolve="account" />
+                <ref role="cht4Q" to="f8t0:1kp2dmopd6b" resolve="Account" />
               </node>
               <node concept="nLn13" id="1BlYseg38Up" role="1m5AlR" />
             </node>
@@ -388,7 +388,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5UuFGOPOsCU">
-    <ref role="1M2myG" to="f8t0:1kp2dmopd6b" resolve="account" />
+    <ref role="1M2myG" to="f8t0:1kp2dmopd6b" resolve="Account" />
     <node concept="EnEH3" id="3Il0Hxr4MXD" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="3Il0Hxr4MY$" role="QCWH9">
@@ -591,7 +591,7 @@
               <node concept="1PxgMI" id="4Cl1JtMTeJo" role="2Oq$k0">
                 <property role="1BlNFB" value="true" />
                 <node concept="chp4Y" id="4Cl1JtMTeVl" role="3oSUPX">
-                  <ref role="cht4Q" to="f8t0:1kp2dmopd6b" resolve="account" />
+                  <ref role="cht4Q" to="f8t0:1kp2dmopd6b" resolve="Account" />
                 </node>
                 <node concept="2OqwBi" id="4Cl1JtMQUhp" role="1m5AlR">
                   <node concept="EsrRn" id="53arKMgy0mj" role="2Oq$k0" />
