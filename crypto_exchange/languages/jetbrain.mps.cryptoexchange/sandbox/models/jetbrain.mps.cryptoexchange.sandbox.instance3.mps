@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a22b0c0e-94b5-47d4-9a5c-f072769bb8e5(jetbrain.mps.cryptoexchange.sandbox.simpleExchange)">
+<model ref="r:a22b0c0e-94b5-47d4-9a5c-f072769bb8e5(jetbrain.mps.cryptoexchange.sandbox.instance3)">
   <persistence version="9" />
   <languages>
     <use id="88593235-0df5-45d0-bc76-936b0ff5f304" name="jetbrain.mps.cryptoexchange" version="0" />
@@ -8,6 +8,7 @@
   <registry>
     <language id="88593235-0df5-45d0-bc76-936b0ff5f304" name="jetbrain.mps.cryptoexchange">
       <concept id="1520256062691969658" name="jetbrain.mps.cryptoexchange.structure.cryptoExchange" flags="ng" index="2duCaJ">
+        <property id="1520256062692053357" name="IP" index="2dvtAS" />
         <child id="1520256062692053353" name="SubSytem" index="2dvtAW" />
         <child id="3064282989106935579" name="Token" index="2quN8Z" />
         <child id="4213103153625125569" name="TokenNetwork" index="N$a0Y" />
@@ -44,10 +45,11 @@
     </language>
   </registry>
   <node concept="2duCaJ" id="1kp2dmopd5_">
-    <property role="TrG5h" value="hello" />
+    <property role="TrG5h" value="SimpleExchange" />
+    <property role="2dvtAS" value="89.56.9.0" />
     <node concept="2dvtAN" id="3Il0HxraxXq" role="2dvtAW">
       <node concept="2dvt_u" id="3Il0HxrbefT" role="2dvt_j">
-        <property role="TrG5h" value="0x0" />
+        <property role="TrG5h" value="0xc" />
         <node concept="2rjvvJ" id="3Il0HxrbefV" role="2rjvun">
           <property role="2rjvul" value="12.0" />
           <ref role="2rjvvE" node="3DRWJW9Xwwp" resolve="BIT" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:4e10141a-6268-4854-bbb3-bc0660d1e800(jetbrain.mps.cryptoexchange.sandbox.sample)">
+<model ref="r:4e10141a-6268-4854-bbb3-bc0660d1e800(jetbrain.mps.cryptoexchange.sandbox.instance1)">
   <persistence version="9" />
   <languages>
     <use id="88593235-0df5-45d0-bc76-936b0ff5f304" name="jetbrain.mps.cryptoexchange" version="0" />
@@ -62,8 +62,8 @@
     </language>
   </registry>
   <node concept="2duCaJ" id="4Cl1JtMP0Kg">
-    <property role="TrG5h" value="instance1" />
-    <property role="2dvtAS" value="127.0" />
+    <property role="TrG5h" value="Test" />
+    <property role="2dvtAS" value="189.9.90.0" />
     <node concept="2dvtAN" id="4Cl1JtMP0Kh" role="2dvtAW">
       <node concept="2rjvut" id="4Cl1JtMP0Kl" role="2dvt_t">
         <property role="TrG5h" value="PAL / WAL" />

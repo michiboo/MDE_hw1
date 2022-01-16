@@ -145,5 +145,22 @@
       </node>
     </node>
   </node>
+  <node concept="3QByoM" id="6E9pxcM7gMR">
+    <ref role="3Z9TSV" to="f8t0:1kp2dmooSDU" resolve="cryptoExchange" />
+    <node concept="3QByp$" id="6E9pxcM7gMT" role="3QBEN7">
+      <node concept="16I2mz" id="6E9pxcM7gMU" role="16N$OO">
+        <node concept="16N$OT" id="6E9pxcM7gN2" role="16I2mt">
+          <property role="16N$OU" value="&quot;invalid IP address&quot;" />
+        </node>
+        <node concept="16N$OT" id="6E9pxcM7gN1" role="16I2mt">
+          <property role="16N$OU" value="" />
+        </node>
+      </node>
+      <node concept="1GjwBS" id="6E9pxcM7gMS" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="f8t0:1kp2dmopd5H" resolve="IP" />
+      </node>
+    </node>
+  </node>
 </model>
 

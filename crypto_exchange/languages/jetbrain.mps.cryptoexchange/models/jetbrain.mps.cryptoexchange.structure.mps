@@ -86,7 +86,7 @@
     <node concept="1TJgyi" id="1kp2dmopd5H" role="1TKVEl">
       <property role="IQ2nx" value="1520256062692053357" />
       <property role="TrG5h" value="IP" />
-      <ref role="AX2Wp" node="4FBCdjhE_tp" resolve="_decimal" />
+      <ref role="AX2Wp" node="6E9pxcM6_bY" resolve="_ipaddress" />
     </node>
     <node concept="1TJgyi" id="1kp2dmopd5N" role="1TKVEl">
       <property role="IQ2nx" value="1520256062692053363" />
@@ -417,10 +417,10 @@
       <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
     </node>
   </node>
-  <node concept="Az7Fb" id="53arKMgxJ$U">
-    <property role="3F6X1D" value="5821587568084842810" />
+  <node concept="Az7Fb" id="6E9pxcM6_bY">
+    <property role="3F6X1D" value="7676779272460718846" />
     <property role="TrG5h" value="_ipaddress" />
-    <property role="FLfZY" value="-?[0-9]+\\.[0-9]*([Ee][\\+\\-]?[0-9]+)?[dD]?                                                                    \n                                                                                                               \n    matching regexp: (\b25[0-5]|\b2[0-4][0-9]|\b[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}" />
+    <property role="FLfZY" value="[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}" />
   </node>
 </model>
 
