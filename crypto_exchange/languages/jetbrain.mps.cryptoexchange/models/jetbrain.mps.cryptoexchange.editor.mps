@@ -107,7 +107,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="1kp2dmooSDX">
-    <ref role="1XX52x" to="f8t0:1kp2dmooSDU" resolve="cryptoExchange" />
+    <ref role="1XX52x" to="f8t0:1kp2dmooSDU" resolve="CryptoExchange" />
     <node concept="3EZMnI" id="4FBCdjhF6Nz" role="2wV5jI">
       <node concept="3F0ifn" id="4FBCdjhF6NY" role="3EZMnx">
         <property role="3F0ifm" value="CryptoExchange" />
@@ -182,7 +182,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4FBCdjhE_tN">
-    <ref role="1XX52x" to="f8t0:1kp2dmopd5A" resolve="subsystem" />
+    <ref role="1XX52x" to="f8t0:1kp2dmopd5A" resolve="Subsystem" />
     <node concept="3EZMnI" id="4FBCdjhE_xE" role="2wV5jI">
       <node concept="3F0ifn" id="3DRWJW9SAXq" role="3EZMnx">
         <property role="3F0ifm" value="Subsystem:" />
@@ -290,7 +290,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2QecUgbxa3W">
-    <ref role="1XX52x" to="f8t0:1kp2dmopd6b" resolve="account" />
+    <ref role="1XX52x" to="f8t0:1kp2dmopd6b" resolve="Account" />
     <node concept="3F0ifn" id="2QecUgbxLKF" role="6VMZX" />
     <node concept="3EZMnI" id="2E6xiiKWWH4" role="2wV5jI">
       <node concept="l2Vlx" id="2E6xiiKWWH5" role="2iSdaV" />
@@ -394,7 +394,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2E6xiiKZWSg">
-    <ref role="1XX52x" to="f8t0:4FBCdjhE_sz" resolve="token" />
+    <ref role="1XX52x" to="f8t0:4FBCdjhE_sz" resolve="Token" />
     <node concept="3EZMnI" id="2E6xiiKZWSp" role="2wV5jI">
       <node concept="l2Vlx" id="2E6xiiKZWSq" role="2iSdaV" />
       <node concept="3F0ifn" id="2E6xiiKZWSr" role="3EZMnx">
@@ -610,7 +610,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3DRWJWacCtW">
-    <ref role="1XX52x" to="f8t0:2E6xiiL0WVW" resolve="order" />
+    <ref role="1XX52x" to="f8t0:2E6xiiL0WVW" resolve="Order" />
     <node concept="3EZMnI" id="3DRWJWacCtY" role="2wV5jI">
       <node concept="3F0ifn" id="3DRWJWacCu8" role="3EZMnx">
         <property role="3F0ifm" value="Order " />
@@ -917,7 +917,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6E9pxcMqVFu">
-    <ref role="1XX52x" to="f8t0:3Il0Hxr9Ot1" resolve="savingOrder" />
+    <ref role="1XX52x" to="f8t0:3Il0Hxr9Ot1" resolve="SavingOrder" />
     <node concept="3EZMnI" id="6E9pxcMqVFw" role="2wV5jI">
       <node concept="3F0ifn" id="6E9pxcMqWob" role="3EZMnx">
         <property role="3F0ifm" value="Saving Order {" />

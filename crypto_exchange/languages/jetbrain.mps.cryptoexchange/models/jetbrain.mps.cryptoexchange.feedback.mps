@@ -64,7 +64,7 @@
     </language>
   </registry>
   <node concept="3QByoM" id="3Il0HxqXZGQ">
-    <ref role="3Z9TSV" to="f8t0:2E6xiiL0WVW" resolve="order" />
+    <ref role="3Z9TSV" to="f8t0:2E6xiiL0WVW" resolve="Order" />
     <node concept="3QByp$" id="3Il0HxqXZHl" role="3QBEN7">
       <node concept="16I2mz" id="3Il0HxqXZHm" role="16N$OO">
         <node concept="16N$OT" id="3Il0HxqYcmY" role="16I2mt">
@@ -86,7 +86,7 @@
     </node>
   </node>
   <node concept="3QByoM" id="53arKMgyoSa">
-    <ref role="3Z9TSV" to="f8t0:1kp2dmopd6b" resolve="account" />
+    <ref role="3Z9TSV" to="f8t0:1kp2dmopd6b" resolve="Account" />
     <node concept="3QByp$" id="4Cl1JtMH3I3" role="3QBEN7">
       <node concept="16I2mz" id="4Cl1JtMH3I4" role="16N$OO">
         <node concept="16N$OT" id="4Cl1JtMH3Id" role="16I2mt">
@@ -146,7 +146,7 @@
     </node>
   </node>
   <node concept="3QByoM" id="6E9pxcM7gMR">
-    <ref role="3Z9TSV" to="f8t0:1kp2dmooSDU" resolve="cryptoExchange" />
+    <ref role="3Z9TSV" to="f8t0:1kp2dmooSDU" resolve="CryptoExchange" />
     <node concept="3QByp$" id="6E9pxcM7gMT" role="3QBEN7">
       <node concept="16I2mz" id="6E9pxcM7gMU" role="16N$OO">
         <node concept="16N$OT" id="6E9pxcM7gN2" role="16I2mt">

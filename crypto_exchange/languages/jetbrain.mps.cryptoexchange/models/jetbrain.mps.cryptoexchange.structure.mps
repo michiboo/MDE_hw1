@@ -56,7 +56,7 @@
   </registry>
   <node concept="1TIwiD" id="1kp2dmooSDU">
     <property role="EcuMT" value="1520256062691969658" />
-    <property role="TrG5h" value="cryptoExchange" />
+    <property role="TrG5h" value="CryptoExchange" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1kp2dmooSDV" role="PzmwI">
@@ -67,14 +67,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="SubSytem" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="1kp2dmopd5A" resolve="subsystem" />
+      <ref role="20lvS9" node="1kp2dmopd5A" resolve="Subsystem" />
     </node>
     <node concept="1TJgyj" id="2E6xiiKZrsr" role="1TKVEi">
       <property role="IQ2ns" value="3064282989106935579" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="Token" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
+      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="Token" />
     </node>
     <node concept="1TJgyj" id="3DRWJW9TPb1" role="1TKVEi">
       <property role="IQ2ns" value="4213103153625125569" />
@@ -96,14 +96,14 @@
   </node>
   <node concept="1TIwiD" id="1kp2dmopd5A">
     <property role="EcuMT" value="1520256062692053350" />
-    <property role="TrG5h" value="subsystem" />
+    <property role="TrG5h" value="Subsystem" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1kp2dmopd66" role="1TKVEi">
       <property role="IQ2ns" value="1520256062692053382" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="accounts" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1kp2dmopd6b" resolve="account" />
+      <ref role="20lvS9" node="1kp2dmopd6b" resolve="Account" />
     </node>
     <node concept="1TJgyj" id="1kp2dmopd68" role="1TKVEi">
       <property role="IQ2ns" value="1520256062692053384" />
@@ -117,14 +117,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="orders" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2E6xiiL0WVW" resolve="order" />
+      <ref role="20lvS9" node="2E6xiiL0WVW" resolve="Order" />
     </node>
     <node concept="1TJgyj" id="3Il0Hxr9Otd" role="1TKVEi">
       <property role="IQ2ns" value="4293340948033128269" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="savingOrder" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3Il0Hxr9Ot1" resolve="savingOrder" />
+      <ref role="20lvS9" node="3Il0Hxr9Ot1" resolve="SavingOrder" />
     </node>
     <node concept="1TJgyi" id="3DRWJW9RvCB" role="1TKVEl">
       <property role="IQ2nx" value="4213103153624513063" />
@@ -134,7 +134,7 @@
   </node>
   <node concept="1TIwiD" id="1kp2dmopd6b">
     <property role="EcuMT" value="1520256062692053387" />
-    <property role="TrG5h" value="account" />
+    <property role="TrG5h" value="Account" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1kp2dmopd6c" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -156,7 +156,7 @@
   </node>
   <node concept="1TIwiD" id="4FBCdjhE_sz">
     <property role="EcuMT" value="5397459514337941283" />
-    <property role="TrG5h" value="token" />
+    <property role="TrG5h" value="Token" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4FBCdjhE_s$" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -186,7 +186,7 @@
       <property role="IQ2ns" value="5397459514337941310" />
       <property role="20kJfa" value="token" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
+      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="Token" />
     </node>
     <node concept="1TJgyi" id="4FBCdjhE_t1" role="1TKVEl">
       <property role="IQ2nx" value="5397459514337941313" />
@@ -208,13 +208,13 @@
       <property role="IQ2ns" value="5397459514337941330" />
       <property role="20kJfa" value="TokenA" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
+      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="Token" />
     </node>
     <node concept="1TJgyj" id="4FBCdjhE_tk" role="1TKVEi">
       <property role="IQ2ns" value="5397459514337941332" />
       <property role="20kJfa" value="TokenB" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
+      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="Token" />
     </node>
     <node concept="1TJgyi" id="4FBCdjhE_tn" role="1TKVEl">
       <property role="IQ2nx" value="5397459514337941335" />
@@ -250,7 +250,7 @@
   </node>
   <node concept="1TIwiD" id="2E6xiiL0WVW">
     <property role="EcuMT" value="3064282989107334908" />
-    <property role="TrG5h" value="order" />
+    <property role="TrG5h" value="Order" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2E6xiiL0WVZ" role="1TKVEl">
       <property role="IQ2nx" value="3064282989107334911" />
@@ -281,7 +281,7 @@
       <property role="IQ2ns" value="3064282989107334918" />
       <property role="20kJfa" value="account" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1kp2dmopd6b" resolve="account" />
+      <ref role="20lvS9" node="1kp2dmopd6b" resolve="Account" />
     </node>
     <node concept="1TJgyj" id="2E6xiiL0WW8" role="1TKVEi">
       <property role="IQ2ns" value="3064282989107334920" />
@@ -349,13 +349,13 @@
       <property role="IQ2ns" value="4293340948030759047" />
       <property role="20kJfa" value="token" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
+      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="Token" />
     </node>
     <node concept="1TJgyj" id="3Il0Hxr4dAw" role="1TKVEi">
       <property role="IQ2ns" value="4293340948031658400" />
       <property role="20kJfa" value="Destination" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1kp2dmopd6b" resolve="account" />
+      <ref role="20lvS9" node="1kp2dmopd6b" resolve="Account" />
     </node>
   </node>
   <node concept="25R3W" id="3Il0Hxqx0iu">
@@ -393,7 +393,7 @@
   </node>
   <node concept="1TIwiD" id="3Il0Hxr9Ot1">
     <property role="EcuMT" value="4293340948033128257" />
-    <property role="TrG5h" value="savingOrder" />
+    <property role="TrG5h" value="SavingOrder" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3Il0Hxr9Ot2" role="1TKVEl">
       <property role="IQ2nx" value="4293340948033128258" />
@@ -414,7 +414,7 @@
       <property role="IQ2ns" value="4293340948033128263" />
       <property role="20kJfa" value="token" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="token" />
+      <ref role="20lvS9" node="4FBCdjhE_sz" resolve="Token" />
     </node>
   </node>
   <node concept="Az7Fb" id="6E9pxcM6_bY">
